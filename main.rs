@@ -1,15 +1,13 @@
-//Emilio Rafael Beltran Barraza
+//TABLAS DE MULTIPLICAR--KEVIN SALAS--CIENCIAS DE DATOS 
 
 fn main() {
 
-for numero in 1..=10 {
-    print!("tabla de multiplicar de {}", numero);
-
-    for j in 1..=10{
-        print!("{} * {} = {}\n ",numero,j,numero*j);
-
+    for i in 1..=10 {
+        println!("tabla de multiplicar del {}: ", i);
+        for j in 1..=10 {
+            println!("{} ", i * j);
+        }
+        println!();
     }
-    print!("\n");
 }
 
-}
