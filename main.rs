@@ -1,19 +1,15 @@
-//JOSE DAVID SICAIROS FONSECA
- fn main(){
+//Emilio Rafael Beltran Barraza
 
-for i in 1..=10 {
-    print!("la tabla del {}\n",i);
+fn main() {
 
-        for j in 1..=10 {
-            print!("{} x {} = {}\n",i,j,i*j); 
-                   
-        }
-        print!("\n");
-    
+for numero in 1..=10 {
+    print!("tabla de multiplicar de {}", numero);
+
+    for j in 1..=10{
+        print!("{} * {} = {}\n ",numero,j,numero*j);
+
+    }
+    print!("\n");
 }
 
-
-
-
-
- }
+}
