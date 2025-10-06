@@ -1,0 +1,11 @@
+fn main() {
+    let num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    for i in num {
+        println!("tabla del:{}",i);
+        for j in num {
+            let resul: u8 = i * j;
+            println!("{} x {} = {}", i, j, resul);
+        }
+    }
+}
