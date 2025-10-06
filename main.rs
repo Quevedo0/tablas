@@ -1,13 +1,12 @@
-//TABLAS DE MULTIPLICAR--KEVIN SALAS--CIENCIAS DE DATOS 
-
 fn main() {
 
-    for i in 1..=10 {
-        println!("tabla de multiplicar del {}: ", i);
-        for j in 1..=10 {
-            println!("{} ", i * j);
-        }
-        println!();
-    }
+    let mut i: i32;
+    let mut j: i32;
+    
+for i in 1..11 {
+    for j in 1..11 {
+    
+     println!("{}x{}={}",i,j,i*j);
+   }
+  }
 }
-
