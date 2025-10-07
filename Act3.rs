@@ -1,0 +1,15 @@
+fn main() {
+
+    println!("Tabla de multiplicar del 1 al 10\n");
+
+    for i in 1..=10 {
+        println!("Tabla del {}:", i);
+
+        for j in 1..=10 {
+            println!("{} x {} = {}", i, j, i * j);
+        }
+
+        println!("---------------");
+    }
+}
+
